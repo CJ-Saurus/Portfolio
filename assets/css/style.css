@@ -9,10 +9,11 @@ background:rgb(70, 70, 70);
 
 nav {
     background-color: rgb(70, 70, 70);
+    text-align: right;
 }
 
 nav a {
-    justify-content: flex-end;
+
     color:rgba(82, 216, 243, 0.74)
 }
 
