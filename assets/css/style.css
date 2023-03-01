@@ -2,6 +2,11 @@ body {
     background-color: ghostwhite;
 }
 
+header {
+padding: 30px;
+background:rgb(70, 70, 70);
+}
+
 nav {
     background-color: rgb(70, 70, 70);
 }
