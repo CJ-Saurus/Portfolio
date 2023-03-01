@@ -1,3 +1,12 @@
 body {
     background-color: ghostwhite;
 }
+
+nav {
+    background-color: rgb(70, 70, 70);
+}
+
+nav a {
+    justify-content: flex-end;
+    color:rgba(82, 216, 243, 0.74)
+}
