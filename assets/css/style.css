@@ -5,6 +5,7 @@ body {
 header {
 padding: 30px;
 background:rgb(70, 70, 70);
+width: 100%;
 }
 
 nav {
@@ -17,6 +18,11 @@ nav a {
     color:rgba(82, 216, 243, 0.74);
     font-size: x-large;
     text-decoration: underline;
+}
+
+.opening {
+    width: 100%;
+    height: 100px;
 }
 
 h1 {
