@@ -1,15 +1,19 @@
 body {
     background-color: ghostwhite;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whyte, sans-serif;
+}
+
+a:link, a:visited, a:active {
+    color: rgba(82, 216, 243, 0.74);
 }
 
 header {
-padding: 30px;
-background:rgb(70, 70, 70);
+padding: 5px;
+background:rgb(230, 164, 0);
 }
 
 nav {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(230, 164, 0);
     text-align: right;
 }
 
@@ -17,13 +21,24 @@ nav a {
 
     color:rgba(82, 216, 243, 0.74);
     font-size: x-large;
+    font-weight: bold;
     text-decoration: underline;
 }
 
-.opening, img {
+nav a:hover {
+    opacity: .7
+}
+
+.Opening img {
     width: 100%;
     z-index: 0;
     height: 200px;
+    border: 3px solid black;
+}
+
+.information, p {
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -35,17 +50,72 @@ h1 {
     font-size: xx-large;
 }
 
-.Work {
+h2 {
+    font-size: 40px
+}
+.About-Me {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+    margin: 30px;
+    
+}
+.About-Me .information p {
+    font-size: 10 px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
 }
 
-.Work, ul, li img {
-    width: 75%;
-    height: 75%;
-    display: flex;
-    align-self: center;
+    
+
+body {
+    margin: 0;
+}
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+.image-grid img {
+    border: 5px solid goldenrod;
+    border-radius: 25px;
+}
+
+.image-grid img:hover {
+    opacity: .6;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
 }
 
 footer ul {
@@ -56,27 +126,27 @@ footer ul {
     align-content: center;
     font-size: 30px;
     font-weight: bolder;
+    margin: 30px;
 }
 
 footer ul li {
-    /*padding-bottom: 15px;*/
     font-weight: bold;
+    color: rgba(82, 216, 243, 0.74);
 
 }
 
 footer ul li p {
     text-decoration: underline;
+    color: rgba(82, 216, 243, 0.74);
 }
 
 footer ul li p a {
     text-decoration: underline;
-    color: var(--primary);
+    color: rgba(82, 216, 243, 0.74);
     padding: 8px;
     font-weight: bold;
 }
 
 footer ul li a:hover {
-    background: var(--pop);
-    color: var(--secondary);
-    border-radius: 15px;
+    opacity: .6;
 }
