@@ -14,4 +14,4 @@ Resized page to allow to be viewed on various screens and tablets
 
 ## Screenshot
 
-<img src="./assets/images/Screenshot 2023-03-06 at 9.57.50 PM.png>
+<img src="./assets/images/Screenshot 2023-03-06 at 9.57.50 PM.png">
