@@ -55,15 +55,12 @@ h1 {
 h2 {
     font-size: 40px
 }
+
 .About-Me {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
     padding-top: 30px;
     margin: 30px;
-
-    
 }
+
 .About-Me .information p {
     font-size: 10 px;
     padding: 0 30px;
