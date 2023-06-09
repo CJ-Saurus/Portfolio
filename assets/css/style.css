@@ -1,15 +1,21 @@
 body {
+    background-image: url(/assets/images/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: ghostwhite;
     font-family: Whyte, sans-serif;
+    color: whitesmoke;
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
     color: burlywood;
 }
 
 header {
     padding: 5px;
-    background:rgb(230, 164, 0);
+    background: rgb(230, 164, 0);
 
 }
 
@@ -38,13 +44,14 @@ nav a:hover {
     border: 3px solid black;
 }
 
-.information, p {
+.information,
+p {
     display: flex;
     justify-content: space-between;
 }
 
 h1 {
-    background:burlywood;
+    background: burlywood;
     display: flex;
     justify-content: flex-start;
     padding: 10px;
@@ -80,19 +87,19 @@ h2 {
 }
 
 ul {
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-content: space-around;
-        
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+}
 
 .cassette {
     height: 100px;
     width: 1000px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border: 5px solid goldenrod;
+    border: 5px solid whitesmoke;
     border-radius: 25px;
 }
 
@@ -102,8 +109,9 @@ ul {
     width: 300px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border: 5px solid goldenrod;
-    border-radius: 25px;;
+    border: 5px solid whitesmoke;
+    border-radius: 25px;
+    ;
 }
 
 .blur {
@@ -111,7 +119,7 @@ ul {
     width: 300px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border: 5px solid goldenrod;
+    border: 5px solid whitesmoke;
     border-radius: 25px;
 }
 
@@ -120,7 +128,7 @@ ul {
     width: 300px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border: 5px solid goldenrod;
+    border: 5px solid whitesmoke;
     border-radius: 25px;
 }
 
@@ -129,26 +137,28 @@ ul {
     width: 300px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border: 5px solid goldenrod;
+    border: 5px solid whitesmoke;
     border-radius: 25px;
 }
+
 li:first-child {
     order: -1;
     flex: 1 0 100%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
+
 li:hover {
     opacity: .6
-}  
+}
 
 
-/* Anything udner 1024px */
+/* Anything under 1024px */
 @media screen and (max-width: 1024px) {
-	.image-grid {
-		--num-cols: 2;
-		--row-height: 200px;
-	}
+    .image-grid {
+        --num-cols: 2;
+        --row-height: 200px;
+    }
 }
 
 footer ul {
